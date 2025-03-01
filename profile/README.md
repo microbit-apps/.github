@@ -8,7 +8,7 @@ So, micro:bit  apps are generally portable and don't need an internet connection
 micro:bit only has 128kB of RAM and 512kB flash, it's a challenge to create
 applications in this relatively low-resource setting.
 
-> This organization is not for the development of [mobile apps for the micro:bit](https://microbit.org/get-started/user-guide/mobile/),
+> Please note, we are NOT developing [mobile apps for the micro:bit](https://microbit.org/get-started/user-guide/mobile/),
 > which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit.
 
 ## Contributing
