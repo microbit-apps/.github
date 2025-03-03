@@ -33,7 +33,8 @@ There are three ways to develop micro:bit apps (which are MakeCode programs):
 - **Recommended**: [VS Code extension for MakeCode](./vs-code.md)
 - MakeCode web app
     - You must currently use https://makecode.microbit.org/beta to build a micro:bit app 
-    - Load a micro:bit app into MakeCode using the Import button in the home page and selecting "Import URL".
+    - Load a micro:bit app into MakeCode using the Import button in the home page and selecting "Import URL"
+    - Then provide the URL of the micro:bit app's GitHub repo (such as https://github.com/microbit-apps/MicroData)
 - MakeCode CLI (compiler)
     1. Install the [MakeCode CLI](https://microsoft.github.io/pxt-mkc/).
     2. Attach a micro:bit to your computer using USB cable.
