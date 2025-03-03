@@ -10,7 +10,7 @@ it's a challenge to create apps for this relatively low-resource setting.
 
 > Please note, we are NOT developing [mobile apps for the micro:bit](https://microbit.org/get-started/user-guide/mobile/),
 > which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit. In
-> constrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
+> contrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
 
 ## Micro:bit Apps
 
