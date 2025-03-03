@@ -9,7 +9,7 @@ computer or internet connection. As the micro:bit only has 128kB of RAM and 512k
 it's a challenge to create apps for this relatively low-resource setting.
 
 > Please note, we are NOT developing [mobile apps for the micro:bit](https://microbit.org/get-started/user-guide/mobile/),
-> which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit. In
+> which are apps for iPad, iPhone or Android devices that communicate over Bluetooth to a micro:bit. In
 > contrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
 
 ## Micro:bit Apps
