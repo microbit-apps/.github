@@ -43,9 +43,10 @@ There are three ways to develop micro:bit apps (which are MakeCode programs):
 ### MakeCode extensions
 
 Extensions built by this organization include:
-  - [display shield](https://github.com/microbit-apps/display-shield)
-  - [user interface]
-
+  - https://github.com/microbit-apps/display-shield
+  - https://github.com/microbit-apps/user-interface-base
+  - https://github.com/microbit-apps/MicroGUI
+    
 ### MakeCode for the micro:bit
 
 The MakeCode web app (and related assets used by the CLI and VS Code extension) is built from:
