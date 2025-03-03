@@ -63,5 +63,3 @@ the CODAL runtime for the micro:bit, built from:
 
 The following repo provides details on how build CODAL
   - https://github.com/lancaster-university/microbit-v2-samples
-
-### Jacdac
