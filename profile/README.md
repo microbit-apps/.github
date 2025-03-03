@@ -12,7 +12,7 @@ it's a challenge to create apps for this relatively low-resource setting.
 > which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit. In
 > constrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
 
-## Micro:bit apps
+## Micro:bit Apps
   - [MicroData](https://github.com/microbit-apps/MicroData)
   - [MicroCode](https://github.com/microbit-apps/MicroCode)
   - [MicroMusic](https://github.com/microbit-apps/MicroMusic)
@@ -28,11 +28,11 @@ user interface layers.
 
 ### MakeCode tooling
 
-There are three ways to develop MakeCode programs:
+There are three ways to develop micro:bit apps (which are MakeCode programs):
 
 - **Recommended**: [VS Code extension for MakeCode](./vs-code.md)
-- Web app
-    - You must use https://makecode.microbit.org/beta to build a micro:bit app 
+- MakeCode web app
+    - You must currently use https://makecode.microbit.org/beta to build a micro:bit app 
     - Load a micro:bit app into MakeCode using the Import button in the home page and selecting "Import URL".
 - MakeCode CLI (compiler)
     1. Install the [MakeCode CLI](https://microsoft.github.io/pxt-mkc/).
