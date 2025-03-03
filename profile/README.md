@@ -14,7 +14,7 @@ it's a challenge to create apps for this relatively low-resource setting.
 
 ## Micro:bit Apps
 
-  - [MicroCode](https://aks.ms/microcode) - the first micro:bit app that uses a display shield for visual programming of the micro:bit
+  - [MicroCode](https://aka.ms/microcode) - the first micro:bit app that uses a display shield for visual programming of the micro:bit
   - [MicroData](https://github.com/microbit-apps/MicroData) - a new micro:bit app that turns the micro:bit into a data science tool
 
 ## Contributing
