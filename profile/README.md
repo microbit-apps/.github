@@ -9,7 +9,8 @@ computer or internet connection. As the micro:bit only has 128kB of RAM and 512k
 it's a challenge to create apps for this relatively low-resource setting.
 
 > Please note, we are NOT developing [mobile apps for the micro:bit](https://microbit.org/get-started/user-guide/mobile/),
-> which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit.
+> which are apps that generally run on iPad, iPhone or Android device and communicate over Bluetooth to a micro:bit. In
+> constrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
 
 ## Micro:bit apps
   - [MicroData](https://github.com/microbit-apps/MicroData)
@@ -22,26 +23,45 @@ Coming...
 
 ## Developer Resources
 
-We develop micro:bit apps using Microsoft MakeCode tooling.  A number of MakeCode extensions (libraries)
-provide 
+We develop micro:bit apps using [Microsoft MakeCode](https://www.makecode.com) tooling.  Micro:bit apps make uses of MakeCode extensions (libraries) which provide access to display shield technology and 
+user interface layers. 
 
 ### MakeCode tooling
 
-- VS Code extension for MakeCode
+There are three ways to develop MakeCode programs:
+
+- **Recommended**: [VS Code extension for MakeCode](./vs-code.md)
 - Web app
-- [MakeCode CLI](https://github.com/microsoft/pxt-mkc) is used to compile a MakeCode project to a hex file (binary) for copying to a micro:bit.
+    - You must use https://makecode.microbit.org/beta to build a micro:bit app 
+    - Load a micro:bit app into MakeCode using the Import button in the home page and selecting "Import URL".
+- MakeCode CLI (compiler)
+    1. Install the [MakeCode CLI](https://microsoft.github.io/pxt-mkc/).
+    2. Attach a micro:bit to your computer using USB cable.
+    3. Clone a micro:bit app repo and cd to it
+    4. invoke `mkc -d`, which will produce the micro:bit hex file (in built/mbcodal-binary.hex) and copy it to the micro:bit drive.
 
 ### MakeCode extensions
+
+Extensions built by this organization include:
   - [display shield](https://github.com/microbit-apps/display-shield)
   - [user interface]
 
 ### MakeCode for the micro:bit
 
-  - [microsoft/pxt-microbit](https://github.com/microsoft/pxt-microbit)
-  - [microsoft/pxt-common-packages](https://github.com/microsoft/pxt-common-packages)
-  - [microsoft/pxt](https://github.com/microsoft/pxt)
+The MakeCode web app (and related assets used by the CLI and VS Code extension) is built from:
+  - https://github.com/microsoft/pxt-microbit
+  - https://github.com/microsoft/pxt-common-packages
+  - https://github.com/microsoft/pxt
 
 ### CODAL C++ runtime
-  - [codal-microbit-v2]
-  - [codal-nrf52]
-  - [codal-core]
+
+The MakeCode compiler links the MakeCode program against
+the CODAL runtime for the micro:bit, built from:
+  - https://github.com/lancaster-university/codal-microbit-v2
+  - https://github.com/lancaster-university/codal-nrf52
+  - https://github.com/lancaster-university/codal-core
+
+The following repo provides details on how build CODAL
+  - https://github.com/lancaster-university/microbit-v2-samples
+
+### Jacdac
