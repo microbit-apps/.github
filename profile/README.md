@@ -13,9 +13,9 @@ it's a challenge to create apps for this relatively low-resource setting.
 > constrast, micro:bit apps run on the micro:bit itself and can use a display shield to expand the app's I/O interface.
 
 ## Micro:bit Apps
-  - [MicroData](https://github.com/microbit-apps/MicroData)
-  - [MicroCode](https://github.com/microbit-apps/MicroCode)
-  - [MicroMusic](https://github.com/microbit-apps/MicroMusic)
+
+  - [MicroCode](https://aks.ms/microcode) - the first micro:bit app that uses a display shield for visual programming of the micro:bit
+  - [MicroData](https://github.com/microbit-apps/MicroData) - a new micro:bit app that turns the micro:bit into a data science tool
 
 ## Contributing
 
