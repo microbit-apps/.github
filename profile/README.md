@@ -19,7 +19,7 @@ it's a challenge to create apps for this relatively low-resource setting.
 
 ## Contributing
 
-Coming...
+We are happy to accept contributions, especially new micro:bit apps!
 
 ## Developer Resources
 
@@ -32,7 +32,7 @@ There are three ways to develop micro:bit apps (which are MakeCode programs):
 
 - **Recommended**: [VS Code extension for MakeCode](./vs-code.md)
 - MakeCode web app
-    - You must currently use https://makecode.microbit.org/beta to build a micro:bit app 
+    - You can also use https://makecode.microbit.org/ to build a micro:bit app 
     - Load a micro:bit app into MakeCode using the Import button in the home page and selecting "Import URL"
     - Then provide the URL of the micro:bit app's GitHub repo (such as https://github.com/microbit-apps/MicroData)
 - MakeCode CLI (compiler)
