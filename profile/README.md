@@ -1,5 +1,7 @@
 ## Welcome to Micro:bit Apps!
 
+See https://microbit-apps.org for user facing web site. This site is primarily for developers.
+
 We create applications that run on the [BBC micro:bit](https://microbit.org) 
 to expand its reach in schools and out in the world.  Micro:bit apps 
 often take advantage of [display shields](https://github.com/microbit-apps/display-shield) 
